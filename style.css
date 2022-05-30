@@ -21,8 +21,8 @@ background-clip: text;
     display: inline-block;
     width: 186px;
     height: 0.1px;
-    background: -moz-linear-gradient(45deg, #EB7EF1, #0D99D0);
-    background: -moz-linear-gradient(45deg, #EB7EF1, #0D99D0);
+    background: linear-gradient(45deg, #EB7EF1, #0D99D0);
+    background: linear-gradient(45deg, #EB7EF1, #0D99D0);
     -moz-background-origin: border;
     background-origin: border-box;
     border-bottom: 4px solid transparent;
@@ -89,13 +89,20 @@ background-clip: text;
 
 
 .scheduleContainer .date a:hover{
-    color: #0D99D0;
+    color: #08aff1;
     cursor: default;
 }
 
+.desc .date{
+    color: #08aff1;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 65px;
+}
 
-
-
+.desc .pre-vinprep{
+    background-color: #EB7EF1;!important;
+}
 
 body{
     background-color: #101010;
